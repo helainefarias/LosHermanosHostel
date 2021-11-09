@@ -1,0 +1,253 @@
+* {
+    margin:0;
+}
+
+body {
+    align-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-width: 500px;
+}
+
+.topo {
+    align-content: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding-left: 40px;
+    width: 97%;
+}
+
+.topo-logo p {
+    font-size: 20px;
+}
+
+.topo a {
+    color:rgba(44, 44, 44, 0.842);
+    text-decoration: none;
+}
+
+nav {
+    margin: 15px;
+    margin-right: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.background-hostel {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(../Hostel/assets/d6.png);
+    border-left: none;
+    height: 400px;
+    margin: none;
+    object-fit: contain;
+    padding: none;
+    width: 100%;
+}
+
+.background-hostel-texto div {
+    align-content: center;
+    height: 30px;
+}
+
+.background-hostel h1 h2 {
+    align-content: center;
+    padding-top: 30px;
+}
+
+.container-individual p {
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    width: 450px;
+}
+
+.container-individual img {
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    width: 450px;
+}
+
+
+.contato-detalhe {
+    align-items: center;
+    display:inline-flex;
+    height: 30px;
+    justify-content: left;
+    padding: 10px;
+    width: 280px;
+}
+
+.icone {
+    align-items: center;
+    background-color: none;
+}
+
+.detalhe {
+    background-color: none;
+    min-width: 200px;
+}
+
+.detalhe p {
+    margin: 0;
+    text-align: left;
+}
+
+header {
+    align-items: center;
+    display: inline-flex;
+}
+
+.topo-menu {
+    align-items: right;
+}
+
+.contato-detalhe img {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+
+.container-o-hostel {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre  {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.container-individual-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 150px;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.container-individual-sobre p {
+    text-align: right;
+    width: 210px;
+}
+
+div img {
+    display: block;
+    object-fit: cover;
+    overflow: cover;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+div {
+    align-items: center;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+h1 {
+    align-content: center;
+    color: white;
+    font-size:80px;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    border: 0px;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h5 {
+    align-content: center;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    height: 80px;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5 p {
+    padding: 30px;
+    text-transform: none;
+}
+
+.contato {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.copyright {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p { 
+    color: rgba(44, 44, 44, 0.842);
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    color: hsl(43, 100%, 43%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iframe-container {
+    margin: 0;
+    overflow: hidden;
+    padding-top: 350px;
+    padding-left: 0px;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.footer {
+    align-items: center;
+    background-color:hsl(43, 100%, 43%);
+    margin-top: 0px;
+    padding-top: 10px;
+    height: 150px;
+    width: 100%;
+}
