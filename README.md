@@ -7,7 +7,7 @@
 
 Criar uma página web com as principais informações de um negócio.
 
-Acesse em: https://helainefarias.github.io/HostelLosHermanos
+Acesse em: https://helainefarias.github.io/LosHermanosHostel/
 
 
 ### Tecnologias
