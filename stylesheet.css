@@ -36,13 +36,13 @@ nav {
 .background-hostel {
     align-items: center;
     background-repeat: no-repeat;
-    background-image: url(https://raw.githubusercontent.com/helainefarias/LosHermanosHostel/main/assets/Background-Andrey-grinkevich-on-Unsplash.png);
-    border-left: none;
-    height: 400px;
-    margin: none;
+    border-left: 0;
+    height: 10%;
+    margin: 0;
     object-fit: contain;
-    padding: none;
-    width: 100%;
+    padding: 0;
+    width: auto;
+    background-image: url(https://raw.githubusercontent.com/helainefarias/LosHermanosHostel/main/assets/Background-Andrey-grinkevich-on-Unsplash.png);
 }
 
 .background-hostel-texto div {
